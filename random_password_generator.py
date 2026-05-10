@@ -71,7 +71,7 @@ class RandomPassword:
         self.win.resizable(False, False)  # Prevent resizing the window
 
         # Load the icon
-        icon = PhotoImage(file="Icon/icon.png")
+        icon = PhotoImage(file="./Icon/icon.png")
         
         # Set the Windows Icon
         self.win.iconphoto(True, icon)
